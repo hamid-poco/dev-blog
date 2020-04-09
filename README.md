@@ -69,4 +69,8 @@ This will contain my JS exercices
 
 ~~hamid~~
 
+<<<<<<< HEAD
   :)
+=======
+ :)  ;(
+>>>>>>> c55ff2b9165de962a989abb9de8f0c722bdbff0e
