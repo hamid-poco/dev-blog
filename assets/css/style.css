@@ -35,38 +35,52 @@ body {
 }
 
 /* links */
-a {
+.nav {
   text-decoration: none;
-  color: darkgrey;
+  color:brown;
   outline: none;
   transition: color 0.5s ease; /* it is the litile animiation when i point on the link */
 }
 
-a:hover {
+.nav:hover {
   color: gray;
+}
+
+.first {
+  text-decoration: none;
+  color: black;
+}
+
+.first:hover {
+  text-decoration: underline;
 }
 
 /* buttons */
 button {
-  background: none;
   border: none;
 }
 
+
+
 /* inputs */
 input, input:focus {
-  border: none;
+  
   outline: none;
 }
 
 /* titles formatting */
 h1, h2 {
   font-weight: 700;
+  font-size: 2rem;
 }
 h3 {
   font-weight: 600;
+  font-size: 1.275rem;
 }
 p {
   margin-bottom: 1em;
+  line-height: 1.5;
+  font-size: 0.875rem;;
 }
 /* HELPER CLASSES
 --------------------------------- */
