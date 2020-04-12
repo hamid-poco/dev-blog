@@ -40,6 +40,7 @@ body {
   font-family: sans-serif;
   line-height: 1.6;
   color: #4f4f4f;
+  text-align: left;
 }
 
 /* links */
@@ -169,31 +170,11 @@ p {
 .email {
   padding-top: 0.875rem;
   padding-bottom: 0.875rem;
+  padding-left: 0.875rem;
   height: 1rem;
   width: 360px;
-  border-color: #c2c2c2
-}
-
-/* LAYOUT
---------------------------------- */
-main {
-  margin-left: 510px;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  display: block;
-  width: 790px;
-  height: 800px;
-  line-height: 30px;
-}
-
-main img {
-  max-width: 100%;
-  height: auto;
-}
-
-figcaption{
-  color: #fff;
-  font-size: 16px;
+  border-radius: 1px;
+  
 }
 
 .part-one img {
@@ -214,6 +195,40 @@ figcaption{
   padding: 20px;
 
 }
+
+.form {
+  
+  background: #fafafa;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  display: block;
+  padding: 48px 0 48px 0;
+  text-align: center;
+}
+
+/* LAYOUT
+--------------------------------- */
+main {
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: block;
+  width: 790px;
+  height: 800px;
+  line-height: 30px;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption{
+  color: #fff;
+  font-size: 16px;
+}
+
+
 
 aside ul {
   
@@ -267,14 +282,12 @@ hr{
   width: 85%;
 }
 
-.form {
-  
-  background: #fafafa;
-  padding-bottom: 3rem;
-  padding-top: 3rem;
-  display: block;
-  padding: 48px 0 48px 0;
+
+footer {
+  background: black;
 }
+
+
 
 /* MEDIA QUERIES
 --------------------------------- 
