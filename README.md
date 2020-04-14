@@ -74,4 +74,4 @@ This will contain my JS exercices
 
 ## Links
 
-![This is my web site link](file:///C:/Users/Hamid/POWERCODERS/dev-blog/assets/index.html)
+This is my web-site  [GitHub Pages](https://pages.github.com/hamid-poco/dev-blog/blob/gh-pages/assets/index.html).
