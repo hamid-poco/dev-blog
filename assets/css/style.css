@@ -219,6 +219,11 @@ p {
 
 /* HELPER CLASSES
 --------------------------------- */
+.hamid {
+  border-radius: 50%;
+}
+
+
 .email {
   padding-top: 0.875rem;
   padding-bottom: 0.875rem;
