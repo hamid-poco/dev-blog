@@ -74,7 +74,7 @@ This will contain my JS exercices
 
 ## Links
 
-This is my web-site  [GitHub Pages](hamid-poco.github.io/dev-blog/).
+This is my web-site  [GitHub Pages](https://hamid-poco.github.io/dev-blog/assets/index.html).
 
 
 ![this my photo](assets//hamid.jpg)
