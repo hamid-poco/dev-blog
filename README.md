@@ -1,5 +1,10 @@
 # dev-blog
 
+
+## Links
+
+This is my web-site  [GitHub Pages](https://hamid-poco.github.io/dev-blog/assets/index.html).
+
 # MY WORKSHOP
 This repository will contain my work in class
 
@@ -72,9 +77,7 @@ This will contain my JS exercices
 :)
 
 
-## Links
 
-This is my web-site  [GitHub Pages](https://hamid-poco.github.io/dev-blog/assets/index.html).
+## Image
 
-
-![this my photo](assets//hamid.jpg)
+![this my photo](assets/img/hamid.jpg)
