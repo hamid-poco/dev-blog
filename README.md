@@ -75,3 +75,6 @@ This will contain my JS exercices
 ## Links
 
 This is my web-site  [GitHub Pages](/dev-blog/blob/gh-pages/assets/index.html).
+
+
+![this my photo](assets/img/hamid.jpg)
