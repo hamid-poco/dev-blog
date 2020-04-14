@@ -70,3 +70,5 @@ This will contain my JS exercices
 ~~hamid~~
 
 :)
+
+[This is my web site link](file:///C:/Users/Hamid/POWERCODERS/dev-blog/assets/index.html)
