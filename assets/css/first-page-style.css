@@ -18,7 +18,11 @@ body {
 }
 
 
+
+
+
 article {
+  background: none;
   text-align: center;
   margin: auto;
   line-height:2;
