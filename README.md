@@ -3,7 +3,7 @@
 
 ## Links
 
-This is my web-site  [GitHub Pages](https://hamid-poco.github.io/dev-blog/assets/index.html).
+This is my web-site  [GitHub Pages](https://hamid-poco.github.io/dev-blog/assets/first-page.html).
 
 # MY WORKSHOP
 This repository will contain my work in class
