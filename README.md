@@ -71,4 +71,7 @@ This will contain my JS exercices
 
 :)
 
-[This is my web site link](file:///C:/Users/Hamid/POWERCODERS/dev-blog/assets/index.html)
+
+## Links
+
+![This is my web site link](file:///C:/Users/Hamid/POWERCODERS/dev-blog/assets/index.html)
