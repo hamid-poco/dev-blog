@@ -7,9 +7,9 @@
 
 
 body {
-  background:url('/assets/img/bg.jpg')no-repeat center center fixed;
+  background-image: url(assets/background.jpg);
   background-size: cover;
-  color: 	 #fff;
+  color: 	 black;
   font-size: 16px;
   font-family:Raleway,serif;
 
