@@ -228,12 +228,22 @@ p{
   display: inline-block;
 }
 
+
 .ul-nav-two {
-  padding-top: 20px;
-  text-align: left;
-  display: list-item;
-  position: relative;
-  left: 80px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+  
+  
 
 }
 
@@ -357,4 +367,18 @@ hr{
 
 
 /* MEDIA QUERIES
---------------------------------- 
+--------------------------------- */
+@media (max-width: 991.98px){
+.part-one {
+    position: static;
+    width: inherit;
+    height: auto;
+}
+}
+
+
+@media (max-width: 991.98px){
+.main {
+    margin-left: 0;
+}
+}

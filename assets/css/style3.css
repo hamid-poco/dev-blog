@@ -100,13 +100,104 @@ body {
    background-color: #00b300;
 }
 
+.footer a {
+  color: #fafafa;
+  font-weight:500;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+
+}
 
 
+.title-two a {
+  color: #8f8f8f;
+  text-decoration: none;
+}
+
+.title-two a:hover {
+  text-decoration: underline;
+  color: #8f8f8f;
+}
+
+
+figcaption a{
+  font-size: .875rem;
+  color: #8f8f8f;
+  text-decoration: none;
+}
+
+figcaption a:hover {
+  color: #8f8f8f;
+  font-size: .875rem;
+  text-decoration: underline;
+}
+
+.code-link {
+  color: #00b300;
+  text-decoration: none;
+}
+
+.code-link:hover {
+  color: #276624;
+  text-decoration: underline;
+}
 /* buttons */
 
 .btn {
   padding-top: 25px;
   background: none;
+}
+
+.next-one {
+  border-right: 1px solid black;
+
+}
+
+.next-one {
+  background: #276624;;
+  color: #fff;
+  font-size: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+  position: relative;
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: center;
+  text-decoration: none;
+  border-top-left-radius: .25rem;
+border-bottom-left-radius: .25rem;
+  transition: all .4s ease-in-out;
+}
+
+.next-two {
+  background: #276624;;
+  color: #fff;
+  font-size: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+  position: relative;
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: center;
+  text-decoration: none;
+  border-top-right-radius: .25rem;
+  border-bottom-right-radius: .25rem;
+  transition: all .4s ease-in-out;
+}
+
+
+.next-one:hover {
+  transition: all .4s ease-in-out;
+  background-color: #00b300;
+}
+
+.next-two:hover {
+  transition: all .4s ease-in-out;
+  background-color: #00b300;
 }
 
 
@@ -127,37 +218,96 @@ h1 {
   color: #fff;
   font-weight: bold;
   font-size: 1.5rem;
+  line-height: 1.2;
+  text-align: center;
+
 }
 
 
 h2 {
   display: block;
   font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: .5rem;
+  color: #292929;
+  line-height: 1.2;
+  margin-top: 0;
 }
 
 h3 {
-  font-size: 1.5rem;
+  display: block;
+  font-size: 1.75rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: #292929;
+  font-weight: bold;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
-
+h5 {
+  display: block;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #292929;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 
 
 p {
   font-weight: 400;
-  line-height: 1.5;
-  font-size: 0.875rem;
+  line-height: 1.6;
+  font-size: 1.125rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #4f4f4f;
 }
 
 /* HELPER CLASSES
 --------------------------------- */
 .main {
   display: block;
-  margin:auto;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  margin-left: 280px;
+  
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.one {
+  background: #fafafa ;
   display: block;
-  width: 790px;
-  height: 800px;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.blog-list {
+  padding: 3rem 1rem;
+  display: block;
+}
+
+.main .container {
+  max-width: 820px;
+  text-align: left;
+
 }
 
 
@@ -200,18 +350,161 @@ p {
   display: inline-block;
 }
 
+
 .ul-nav-two {
-  padding-top: 20px;
-  text-align: left;
-  display: list-item;
-  position: relative;
-  left: 80px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
 
 }
 
 .li-nav-two {
   font-weight: bold;
   padding: 10px;
+}
+
+.img-about {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  background-color: black;
+  color: #8f8f8f;
+  text-align: center;
+  padding: 10px;
+}
+
+
+.img-hamid {
+  width: 8rem;
+  height: auto;
+  border-radius: 50%;
+}
+
+
+.title-two {
+  color: #8f8f8f;
+  font-size: 0.8125rem;
+  margin-bottom: 1rem;
+}
+
+
+pre {
+  display: block;
+  font-size: 1.1rem;
+  color: #292929;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  white-space: pre;
+  margin: 1em 0px;
+}
+
+pre code {
+  font-size: inherit;
+  color: inherit;
+  word-break: normal;
+}
+
+ul {
+  display: block;
+  margin-bottom: 3rem;
+  margin-top: 0;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px
+}
+
+ul li {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: .5rem;
+  display: list-item;
+}
+
+ol {
+  margin-top: 0;
+  margin-bottom: 3rem;
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+ol li {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: .5rem;
+  display: list-item;
+}
+
+.blockquote {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  border-left: 2px solid #292929;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+
+.blockquote p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: .5rem;
+  margin-top: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-left: 40px;
+}
+
+.blockquote footer{
+  display: block;
+  font-size: 80%;
+  color: #767575;
+  margin-left: 40px;
+}
+
+.welcome {
+  text-align: center;
+}
+
+iframe {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+}
+
+.next {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
 }
 
 
@@ -221,7 +514,11 @@ p {
 
 
 figcaption{
-  
+  color: #8f8f8f;
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: .5rem;
+    display: block;
 }
 
 
@@ -258,4 +555,18 @@ hr{
 
 
 /* MEDIA QUERIES
---------------------------------- 
+--------------------------------- */
+@media (max-width: 991.98px){
+  .part-one {
+      position: static;
+      width: inherit;
+      height: auto;
+  }
+  }
+  
+  
+  @media (max-width: 991.98px){
+  .main {
+      margin-left: 0;
+  }
+  }
