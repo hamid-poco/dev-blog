@@ -1,36 +1,30 @@
-*{
+html {
   content: "";
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size: 16px;
 }
+
+
+
+
 
 
 body {
-  background-image: url(assets/background.jpg);
-  background-size: cover;
-  color: 	 black;
-  font-size: 16px;
-  font-family:Raleway,serif;
-
-}
-
-
-
-
-
-article {
-  background: none;
+  background-image: linear-gradient(to bottom right, #000000, #330000);
   text-align: center;
   margin: auto;
   line-height:2;
+  background-size: cover;
+  color:#fff;
 }
 
 img{
   border-radius: 50%;
-  height: 250px;
-  width: 150px;
-  padding-top: 30px;
+  height: 12rem;
+  width: auto;
+  margin-top:3rem;
 }
 
 
@@ -44,16 +38,16 @@ a:after {
   width: 25%;
   *max-width: 100px; /* if needed */
   display: inline-block;
-  height: 3px;
+  height: .25rem;
   background: #aaa;
   margin: 0 10px 0 10px ;
 }
 
 a {
-color: #ff4d4d;
+color: yellowgreen;
 font-weight: bold;
 letter-spacing: 3px;
-font-size: 1.5rem;
+font-size: 1.8rem;
 text-decoration: none;
 }
 
@@ -62,3 +56,8 @@ a:hover {
   color: #fff;
 }
 
+@media (max-width: 996px){
+  body {
+    margin-left: 0;
+  }
+}

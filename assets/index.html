@@ -25,129 +25,158 @@
 
 </head>
   <body>
-    <aside class="part-one">
-      <header >
-        <h1>Hamid's Blog</h1>
-        <figure>
-          <img src="img/hamid.jpg" alt="Hamid's face" class="hamid">
-          <figcaption>Hi, my name is Hamid Hosseini. Briefly introduce yourself here.
-            You can also provide a link to the about page.<br><a href="about.html"
-            class="part-three">Find out more about me</a></figcaption>
-              
-        </figure>
-
-          <figure>
-            <ul>
-              <li><a class="part-four" class=" href=""><i class="fab fa-twitter fa-fw"></i></a></li>
-              <li><a class="part-four" class=" href=""><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-              <li><a class="part-four" class=" href=""><i class="fab fa-github-alt fa-fw"></i></a></li>
-              <li><a class="part-four" class=" href=""><i class="fab fa-stack-overflow fa-fw"></i></a></li>
-              <li><a class="part-four" class=" href=""><i class="fab fa-codepen fa-fw"></i></a></li>
-            </ul>
-          </figure>
-          <hr>
-      </header>
-
-      <nav>
-        <ul >
-					<li>
-					    <a class="nav" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Blog Home <span class="sr-only">(current)</span></a>
+    <header class="part-one">	    
+	    <h1>Hamid's Blog</h1>
+        
+	    <nav class="navbar" >
+          
+            <img class="img-hamid" src="img/hamid.jpg" alt="image" >			
+					
+					<div class="myname">Hi, my name is Hamid Hosseini. Briefly introduce yourself here. You can also provide a link to the about page.<br><a href="find">Find out more about me</a></div>
+					<ul class="ul-nav">
+			            <li class="li-nav"><a class="link-nav" href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+			            <li class="li-nav"><a class="link-nav" href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+			            <li class="li-nav"><a class="link-nav" href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
+			            <li class="li-nav"><a class="link-nav" href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+			            <li class="li-nav"><a class="link-nav" href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+			        </ul>
+			        <hr> 
+				</div>
+				
+				<ul class="ul-nav-two">
+					<li class="li-nav-two">
+					    <a class="link-nav-two " href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Blog Home</a></li>
 					</li>
-					<li>
-					    <a class="nav" href="post-template.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Blog Post</a>
+					<li class="li-nav-two">
+					    <a class="link-nav-two" href="post-template.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Blog Post</a>
 					</li>
-					<li>
-					    <a class="nav" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
+					<li class="li-nav-two">
+					    <a class="link-nav-two" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
 					</li>
 				</ul>
+				
+				<div class="btn">
+				    <a class="btn-two" href="" target="_blank">Get in Touch</a>
+				</div>
+      </div>
       
-      <button><a href="#" class="btn"> Get in touch</a></button>
-      </nav>
-  </aside>
-
-  <main>
-      <header class="head">
-          <form action="" class="form">
-            <h2>DevBlog - A Blog Template Made For Developers</h2>
-            <p>Welcome to my blog.
-            Subscribe and get my latest blog post in your inbox.</p>
-            <input type="email" placeholder="Enter email" class="email">
-          <button type="submit"><a href="#" class="btn-two"> Subscribe</a></button>
-        </form>
+		</nav>
     </header>
-    <article>
-      <section>
-        <figure>
-          <img src="img/blog-post-thumb-1.jpg" alt="my image" class="img-one"><br>
-        </figure>
-        <h3><a href="#" class="first" > Why Every Developer Should Have A Blog</a></h3>
-        <small>Published date</small>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneancommodo ligula eget dolor.Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-        felis, ultricies..</p>
-        <p><a href="#" class="two">Read more &rarr;</a></p>
-    </section>
+    
+    <div class="main">
+	    <section class="one">
+		    <div class="container">
+			    <h2 class="welcome">DevBlog - A Blog Template Made For Developers</h2>
+			    <div class="welcome">Welcome to my blog. Subscribe and get my latest blog post in your inbox.</div>
+			    <form class="form">
+                    <div class="form-two">
+                        <label class="sr-only" for="semail">Your email</label>
+                        <input type="email" name="semail1" class="form-control" placeholder="Enter email">
+                    </div>
+                    <button type="submit" class="btn-one">Subscribe</button>
+                </form>
+		    </div>
+      </section>
+      
+	    <section class="blog-list">
+		    <div class="container">
+			    <div class="item-one">
+				    <div class="media"> 
+					    <img class="img" src="img/blog-post-thumb-1.jpg" alt="image">
+					    <div class="item-one-one">
+						    <h3 class="title"><a href="#">Why Every Developer Should Have A Blog</a></h3>
+						    <div class="title-two"> Published 2 days ago . 5 min read . <a href="#"> 8 comments</a></div>
+						    <div class="paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...<br>
+						    <a href="#">Read more &rarr;</a></div>
+					    </div>
+				    </div>
+			    </div>
+          
+          
+            <div class="item-one">
+              <div class="media"> 
+                <img class="img" src="img/blog-post-thumb-2.jpg" alt="image">
+                <div class="item-one-one">
+                  <h3 class="title"><a href="#">A Guide to Becoming a Full-Stack Developer</a></h3>
+                  <div class="title-two"> Published 2 days ago . 5 min read . <a href="#"> 8 comments</a></div>
+                  <div class="paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...<br>
+                  <a href="#">Read more &rarr;</a></div>
+                </div>
+              </div>
+            </div>
 
-    <section>
-          <figure>
-            <img src="img/blog-post-thumb-2.jpg" alt="my image" class="img-one">
-          </figure>
-             <h3><a href="#" class="first">A Guide to Becoming a Full-Stack Developer</a></h3>
-        <small>Published date</small>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneancommodo ligula eget dolor.Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies..</p>
-        <p><a href="#" class="two">Read more &rarr;</a></p>
+            
+              <div class="item-one">
+                <div class="media"> 
+                  <img class="img" src="img/blog-post-thumb-3.jpg" alt="image">
+                  <div class="item-one-one">
+                    <h3 class="title"><a href="#">High Performance JavaScript</a></h3>
+                    <div class="title-two"> Published 2 days ago . 5 min read . <a href="#"> 8 comments</a></div>
+                    <div class="paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...<br>
+                    <a href="#">Read more &rarr;</a></div>
+                  </div>
+                </div>
+              </div>
+
+              
+                <div class="item-one">
+                  <div class="media"> 
+                    <img class="img" src="img/blog-post-thumb-4.jpg" alt="image">
+                    <div class="item-one-one">
+                      <h3 class="title"><a href="#">Top 5 JavaScript Frameworks</a></h3>
+                      <div class="title-two"> Published 2 days ago . 5 min read . <a href="#"> 8 comments</a></div>
+                      <div class="paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...<br>
+                      <a href="#">Read more &rarr;</a></div>
+                    </div>
+                  </div>
+                </div>
+
+                
+                  <div class="item-one">
+                    <div class="media"> 
+                      <img class="img" src="img/blog-post-thumb-5.jpg" alt="image">
+                      <div class="item-one-one">
+                        <h3 class="title"><a href="#">Learn React in 24 Hours</a></h3>
+                        <div class="title-two"> Published 2 days ago . 5 min read . <a href="#"> 8 comments</a></div>
+                        <div class="paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...<br>
+                        <a href="#">Read more &rarr;</a></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                    <div class="item-one">
+                      <div class="media"> 
+                        <img class="img" src="img/blog-post-thumb-6.jpg" alt="image">
+                        <div class="item-one-one">
+                          <h3 class="title"><a href="#">About Remote Working</a></h3>
+                          <div class="title-two"> Published 2 days ago . 5 min read . <a href="#"> 8 comments</a></div>
+                          <div class="paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...<br>
+                          <a href="#">Read more &rarr;</a></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <nav class="next">
+                      
+                      <a class="next-one" href="">Next<i class="fas fa-long-arrow-alt-right"></i></a>
+
+                    </nav>
+
+
+        </div>
       </section>
 
-    <section>
-        <figure>
-          <img src="img/blog-post-thumb-3.jpg" alt="my image" class="img-one">
-        </figure>
-        <h3><a href="#" class="first">High Performance JavaScript</a></h3>
-        <small>Published date</small>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneancommodo ligula eget dolor.Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies..</p>
-        <p><a href="#" class="two">Read more &rarr;</a></p>
-      </section>
 
-      <section>
-        <figure>
-          <img src="img/blog-post-thumb-4.jpg" alt="my image" class="img-one">
-        </figure>
-        <h3><a href="#" class="first">Top 5 JavaScript Frameworks</a></h3>
-        <small>Published date</small>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneancommodo ligula eget dolor.Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies..</p>
-        <p><a href="#" class="two">Read more &rarr;</a></p>
-      </section>
+      <footer class="footer">
+		   
+        
+              <small class="">Designed with <i class="fas fa-heart" ></i> by <a href="" target="_blank">Hamid poco</a> for developers</small>
+     
+    </footer>
 
-    <section>
-        <figure>
-          <img src="img/blog-post-thumb-5.jpg" alt="my image" class="img-one">
-        </figure>
-        <h3><a href="#" class="first">Learn React in 24 Hours</a></h3>
-        <small>Published date</small>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneancommodo ligula eget dolor.Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies..</p>
-        <p><a href="#" class="two">Read more &rarr;</a></p>
-      </section>
 
-      <section>
-        <figure>
-          <img src="img/blog-post-thumb-6.jpg" alt="my image" class="img-one">
-        </figure>
-        <h3><a href="#" class="first">About Remote Working</a></h3>
-        <small>Published date</small>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneancommodo ligula eget dolor.Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies..</p>
-        <p><a href="#" class="two">Read more &rarr;</a></p>
-
-      </section>
-      <section class="fff">
-      <nav>
-        <a class="next" href="/assets/about.html">Next<i class=" fas fa-long-arrow-alt-right"></i></a>
-      </nav>
-        </section> 
-      </article> 
-    </main>
+    </div>
+    
   </body>
 </html>

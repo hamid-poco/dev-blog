@@ -32,159 +32,154 @@ html {
 html {
   font-size: 16px; /* font pixel size should always be to root */
   scroll-behavior: smooth;
+  
 }
 
 /* the body formats */
 body {
   font-size: 1rem; /* rem is related to the root (html), but em is related to the parent */
-  font-family: sans-serif;
   line-height: 1.6;
   text-align: left;
   font-family:Raleway,serif;
+  color: #4f4f4f;
 
 }
+
+
 
 /* links */
+.myname a {
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
 
-.part-three{
+.myname a:hover {
   text-decoration: underline;
-  color:#fff;
-  outline: none;
-  transition: color 0.5s ease;
+  color: #00b300;
+  transition: all 0.4s ease-in-out;
+
 }
 
-.part-three:hover{
-  color: #636f5e;
+.link-nav {
+  width: 32px;
+    height: 32px;
+    padding-top: 5px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.4s ease-in-out;
+    background-color: #fff;
+    color: #276624;
 }
 
-
-.part-four {
-  background: #fff;
-  border:none;
-  padding: 5px;
-  margin: 0px;
-  border-radius: 50%;
-  text-decoration: none;
-  color:#5FCB71;
-  outline: none;
+.link-nav:hover {
+  background-color: #00b300;
+  transition: all .4s ease-in-out
 }
 
-.part-four:hover {
-  background-color: #c9d1c7;
-  transition: color 0.10s ease;
-}
-
-.nav {
+.link-nav-two {
   text-decoration: none;
   color:#fff;
   outline: none;
-  transition: color 0.5s ease; /* it is the litile animiation when i point on the link */
-} 
-
-.nav:hover {
-  color: #636f5e;
+  transition: color 0.4s ease;
 }
 
-
-
-.btn {
-  background: gray;
-  border:none;
-  padding: 15px 18px 15px 18px;
-  border-radius: 5px;
-  text-decoration: none;
-  color:#fff;
-  outline: none;
-  position: relative;
-  left: 20px;
-  
-
-}
-
-.btn:hover {
-  background-color: darkgray;
-  transition: all .5s ease-in-out;
+.link-nav-two:hover{
+  text-decoration: underline;
+  color: #00b300;
 }
 
 
 .btn-two {
-  background: #5FCB71;
-  border:none;
-  padding: 15px 18px 15px 18px;
-  border-radius: 5px;
   text-decoration: none;
-  color:#fff;
-  outline: none;
+  background-color:  #ff0040;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  transition: all .4s ease-in-out;
 }
 
 .btn-two:hover {
+  transition: all .4s ease-in-out;
+   background-color: #00b300;
+}
+
+.next-one {
+  background: #276624;;
+  color: #fff;
+  font-size: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+  position: relative;
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: center;
+  border-radius: .25rem;
+  text-decoration: none;
+  transition: all .4s ease-in-out;
+}
+
+
+.next-one:hover {
+  transition: all .4s ease-in-out;
   background-color: #00b300;
-  transition: all .5s ease-in-out;
 }
 
-
-.first{
+.title a {
+  text-decoration:none;
   color: black;
+}
+
+.title a:hover {
+  text-decoration:underline;
+  color:black;
+}
+
+.title-two a {
+  color: #8f8f8f;
   text-decoration: none;
 }
 
-.first:hover {
-  color: black;
+.title-two a:hover {
   text-decoration: underline;
+  color: #8f8f8f;
 }
 
-.two {
-  color: #5FCB71;
+.paragraph a{
   text-decoration: none;
+  color: #276624;
 }
 
-.two:hover{
+.paragraph a:hover {
+  text-decoration: underline;
   color: #00b300;
+}
+
+.footer a {
+  color: #fafafa;
+  font-weight:500;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.footer a:hover {
   text-decoration: underline;
+
 }
-
-
-
-.next {
-  background: #5FCB71;
-    color: #fff;
-    font-size: 1rem;
-    padding: 16px;
-    font-weight: bold;
-    text-decoration: none;
-    margin: auto;
-    position: absolute;
-    border-radius: 5px;
-    width: 500px;
-    text-align: center;
-    margin: 25px 0 25px 0;
-    display: block;
-}  
-
-    
-
-
-.next:hover {
-  background-color: #00b300;
-  transition: all .5s ease-in-out;
-}
-
-
 
 /* buttons */
-button {
-  border:none;
-  background: none;
-  font-size: 16px;
-  font-weight: bold;
 
+.btn {
+  padding-top: 25px;
+  background: none;
 }
+
+
 
 /* inputs */
-input, input:focus {
-  outline: none;
 
-}
+
+
 
 /* titles formatting */
 
@@ -197,6 +192,7 @@ h1 {
   color: #fff;
   font-weight: bold;
   font-size: 1.5rem;
+  padding-top: 1rem;
 }
 
 
@@ -220,109 +216,203 @@ p {
 
 /* HELPER CLASSES
 --------------------------------- */
-.hamid {
-  border-radius: 50%;
+.main {
+  display: block;
+  margin-left: 280px;
+  
 }
 
-
-.email {
-  padding-top: 0.875rem;
-  padding-bottom: 0.875rem;
-  padding-left: 0.875rem;
-  height: 1rem;
-  width: 360px;
-  border-radius: 1px;
-}
-
-.img-one {
-  width: 110px;
-  border-radius: 2px;
-  margin-right: 1rem;
-  display: flex;
-  padding: 20px 0 20px 0;
-}
-
-.part-one img {
-  width: 180px;
-  height: 180px;
-  padding-top: 25px;
-}
 
 .part-one {
   position: fixed;
-  line-height: 25px;
-  background-color: #5FCB71;
-  width: 220px;
-  height: 100%;
-  text-align: center;
-  padding-top: 30px;
-  margin: auto;
-  padding: 20px;
-
-}
-  .form {
-    background: #fafafa;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-    display: block;
-    padding: 48px 0 48px 0;
-    text-align: center;
-    line-height: 3rem;
-  }
-
-/* LAYOUT
---------------------------------- */
-main {
-  display: block;
-  margin-left: 480px;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  display: block;
-  width: 790px;
-  height: 800px;
-}
-
-figcaption{
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 280px;
+  background: #276624;
   color: #fff;
-  font-size: 16px;
+  display: block;
+  text-align: center;
 }
 
-
-
-
-
-aside ul {
-  
-  padding: 20px 0 20px 0;
+.myname {
+  font-size: .9rem;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
 }
 
-figure ul li{
+.part-one.navbar {
+  padding: 2rem 1rem;
+}
+
+.ul-nav {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+}
+
+.li-nav {
   display: inline-block;
-  padding: 5px;
-  
 }
 
-figure ul li a  {
-  font-size: 15px;
-}
-
-
-
-nav ul{
+.ul-nav-two {
   padding-top: 20px;
   text-align: left;
   display: list-item;
   position: relative;
-  left: 70px;
+  left: 80px;
+
 }
 
-
-
-nav ul li{
+.li-nav-two {
   font-weight: bold;
-  
-  padding: 5px;
+  padding: 10px;
 }
+
+.one {
+  background: #fafafa ;
+  display: block;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  
+
+}
+
+.main .container {
+  max-width: 820px;
+  text-align: left;
+
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form {
+  padding-top: 1rem;
+  justify-content: center;
+  display: flex;
+  flex-flow: nowrap;
+  align-items: center;
+  text-align: center;
+}
+
+.form-two {
+padding: .5rem;
+}
+
+
+.form-control {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+  padding-left: .45rem;
+  height:auto;
+  border-color: #c2c2c2;
+  width: 300px;
+  border: 1px solid gray ;
+  border-radius: .25rem;
+}
+.btn-one{
+background-color: #276624;
+border: none;
+display: inline-block;
+font-weight: bold;
+padding: .375rem 1rem;
+height: 2.75rem;
+transition: all 0.4s ease-in-out;
+text-align: center;
+border-radius: .25rem;
+}
+
+
+.blog-list {
+  padding: 3rem 1rem;
+  display: block;
+}
+
+.item-one {
+  margin-bottom: 3rem;
+}
+
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.img {
+  max-width: 110px;
+  border-radius: .25rem;
+  margin-right: 1rem;
+  height: auto;
+  vertical-align: middle;
+}
+
+.next {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.footer {
+  background-color: black;
+  color: #8f8f8f;
+  text-align: center;
+  padding: 10px;
+}
+
+.item-one-one {
+  flex: 1;
+}
+
+.title-two {
+  color: #8f8f8f;
+  font-size: 0.8125rem;
+  margin-bottom: .25rem;
+}
+
+.paragraph {
+  font-size: .875rem;
+}
+
+
+.img-hamid {
+  width: 8rem;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* LAYOUT
+--------------------------------- */
+
+
+figcaption{
+  
+}
+
+
+
+
+
+
 
 
 
@@ -330,7 +420,7 @@ hr{
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0,0,0,0.1);
+  border-top: 1px solid #ff0040;
   box-sizing: content-box;
   height: 0;
   overflow: visible;
@@ -352,4 +442,18 @@ hr{
 
 
 /* MEDIA QUERIES
---------------------------------- 
+--------------------------------- */
+@media (max-width: 991.98px){
+.part-one {
+    position: static;
+    width: inherit;
+    height: auto;
+}
+}
+
+
+@media (max-width: 991.98px){
+.main {
+    margin-left: 0;
+}
+}
