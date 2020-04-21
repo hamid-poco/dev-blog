@@ -1,5 +1,5 @@
 # dev-blog
-## This is my web-site  [**Hamid's Blog**](https://hamid-poco.github.io/dev-blog/assets/first-page.html).
+## This is my web-site  [**Hamid's Blog**](https://hamid-poco.github.io/dev-blog/assets/index.html).
  :) :)
 
 ## Links
