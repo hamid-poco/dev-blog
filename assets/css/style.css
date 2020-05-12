@@ -112,12 +112,14 @@ body {
   font-weight: bold;
   position: relative;
   flex-basis: 0;
-  flex-grow: 1;
+  flex-grow: .5;
   text-align: center;
   border-radius: .25rem;
   text-decoration: none;
   transition: all .4s ease-in-out;
+  margin: auto;
 }
+
 
 
 .next-one:hover {
@@ -397,6 +399,7 @@ border-radius: .25rem;
 
 .paragraph {
   font-size: 1.2rem;
+  display: block;
 }
 
 
@@ -406,6 +409,10 @@ border-radius: .25rem;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+
+#code {
+  overflow: hidden;
 }
 
 /* LAYOUT
@@ -429,12 +436,17 @@ hr{
 }
 
 
-.fas{
 
+#code {
+  width: 100%;
+  margin: auto;
 }
 
-
-
+   pre {
+		overflow-x: auto;
+		white-space: pre-wrap;
+		word-wrap: break-word;
+  } 
 
 
 
@@ -446,10 +458,10 @@ hr{
     width: inherit;
     height: auto;
 }
-.main {
+.main,code {
   margin-left: 0;
   padding-left: 0;
-}
+ }
 }
 
 

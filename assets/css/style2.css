@@ -180,6 +180,10 @@ p{
   margin-inline-end: 0px;
 }
 
+span {
+  background: #fc0;
+}
+
 /* HELPER CLASSES
 --------------------------------- */
 .main {

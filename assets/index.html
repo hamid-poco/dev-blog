@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -37,22 +38,18 @@
   <body>
     <header class="part-one">	    
 	    <h1>Hamid's Blog</h1>
-        
-	    <nav class="navbar" >
-          
+	     <nav class="navbar" > 
         <img class="img-hamid" src="img/hamid.jpg" alt="image" >			
-					
-					<div class="myname">Hi, my name is Hamid.You can find some examples about javascript.<br><a href="about.html">Find out more about me</a></div>
+				 <div class="myname">Hi, my name is Hamid.You can find some examples about javascript.<br><a href="about.html">Find out more about me</a></div>
 					<ul class="ul-nav">
-			            <li class="li-nav"><a class="link-nav" href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-			            <li class="li-nav"><a class="link-nav" href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-			            <li class="li-nav"><a class="link-nav" href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
-			            <li class="li-nav"><a class="link-nav" href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
-			            <li class="li-nav"><a class="link-nav" href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+			            <li class="li-nav"><a class="link-nav" href="https://hamidhosseini680@gmail.com"><i class="far fa-envelope fa-fw"></i></a></li>
+			            <li class="li-nav"><a class="link-nav" href="http://linkedin.com/in/hamid-hosseini-4388021a8"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+			            <li class="li-nav"><a class="link-nav" href="https://github.com/hamid-poco"><i class="fab fa-github-alt fa-fw"></i></a></li>
+			            
+			           
 			        </ul>
 			        <hr> 
-				
-				
+			
 				<ul class="ul-nav-two">
 					<li class="li-nav-two">
 					    <a class="link-nav-two " href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Blog Home</a></li>
@@ -66,13 +63,11 @@
 				</ul>
 				
 				<div class="btn">
-				    <a class="btn-two" href="" target="_blank">Get in Touch</a>
+          <a id="click" class="btn-two" href="#" onclick="myfunction();">Click me Please</a>
 				</div>
-			
 		</nav>
     </header>
-    
-    <div class="main">
+     <div class="main">
 	    <section class="one">
 		    <div class="container">
 			    <h2 class="welcome">DevBlog - A Blog Template Made For Developers</h2>
@@ -86,7 +81,6 @@
           </form>
 		</div>
       </section> 
-      
 	    <section class="blog-list">
 		    <div class="container">
 			    <div class="item-one">
@@ -100,7 +94,7 @@
                   objects of the same or different types. Arrays can hold primitives as well as references.
                    The array is the most efficient data structure for storing and accessing a
                     sequence of objects.<br>
-
+                    
                     <pre>
                       <code class="language-js">
                                   let fruitsList = [
@@ -112,12 +106,10 @@
 
                                 ];
 
-                                console.log("List in the begginning" ,fruitsList);
-
-                               
+                                console.log("List in the begginning" ,fruitsList)  
                       </code>
                     </pre>
-						    <a href="https://www.cs.cmu.edu/~adamchik/15-121/lectures/Arrays/arrays.html">Read more &rarr;</a></div>
+                    <a href="https://www.cs.cmu.edu/~adamchik/15-121/lectures/Arrays/arrays.html">Read more &rarr;</a></div>
 					    </div>
 				    </div>
           </div>
@@ -133,39 +125,35 @@
                        you wish to call it.
                       See also the exhaustive reference chapter about JavaScript
                       functions to get to know the details.<br>
-                    <pre>
-                      <code class="language-js">
-
-                        let x = myFunction(4, 3);   // Function is called, return value will end up in x
-
-                        function myFunction(a, b) { // Function returns the product of a and b
-                          return a * b;            
-                        }
-
-                        console.log(myFunction(3,5)); // => answer 15
-
-                      </code>
-                    </pre>
+                      <pre>
+                        <code class="language-js">
+  
+                          let x = myFunction(4, 3);    /*Function is called,
+                                                       return value will end up in x*/
+  
+                          function myFunction(a, b) {   /*Function returns the
+                                                        product of a and b*/
+                            return a * b;            
+                          }
+  
+                          console.log(myFunction(3,5)); // => answer 15
+  
+                        </code>
+                      </pre>
                   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions">Read more &rarr;</a></div>
                 </div>
               </div>
             </div>
-		     
-                  <nav class="next">
-                      
-                      <a class="next-one" href="post-template.html">Next<i class="fas fa-long-arrow-alt-right"></i></a>
-                    </div>
+              <nav class="next">  
+                <a class="next-one" href="post-template.html">Next<i class="fas fa-long-arrow-alt-right"></i></a>
+                  </div>
                   </nav>
                     </section>
-                          </div>
+                       </div>
                     <footer class="footer">
-		   
-        
               <small class="">Designed with <i class="fas fa-heart" ></i> by <a href="#" target="_blank">Hamid poco</a> for developers</small>
-     
                 </footer> 
-              
                 <script src="../assets/plugins/prims/prism.js"></script>
-                
+                <script src="../assets/js/main.js"></script>
              </body>
           </html>
