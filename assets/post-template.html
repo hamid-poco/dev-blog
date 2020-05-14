@@ -31,65 +31,49 @@
 
      <!--Font family-->
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500&display=swap" rel="stylesheet">
-
-
-
 </head>
   <body>
     <header class="part-one">	    
 	    <h1>Hamid's Blog</h1>
-        
 	    <nav class="navbar" >
-          
-            <img class="img-hamid" src="img/hamid.jpg" alt="image" >			
-					
-					<div class="myname">Hi, my name is Hamid.You can find some examples about javascript.<br><a href="find">Find out more about me</a></div>
-					<ul class="ul-nav">
-			            <li class="li-nav"><a class="link-nav" href="https://hamidhosseini680@gmail.com"><i class="far fa-envelope fa-fw"></i></a></li>
-			            <li class="li-nav"><a class="link-nav" href="http://linkedin.com/in/hamid-hosseini-4388021a8"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-			            <li class="li-nav"><a class="link-nav" href="https://github.com/hamid-poco"><i class="fab fa-github-alt fa-fw"></i></a></li>
-
-			        </ul>
-			        <hr> 
-				</div>
-				
-				<ul class="ul-nav-two">
+      <img class="img-hamid" src="img/hamid.jpg" alt="image" >			
+      <div class="myname">Hi, my name is Hamid.You can find some examples about javascript.<br>
+      <a href="find">Find out more about me</a></div>
+			<ul class="ul-nav">
+			    <li class="li-nav"><a class="link-nav" href="https://hamidhosseini680@gmail.com"><i class="far fa-envelope fa-fw"></i></a></li>
+			    <li class="li-nav"><a class="link-nav" href="http://linkedin.com/in/hamid-hosseini-4388021a8"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+			    <li class="li-nav"><a class="link-nav" href="https://github.com/hamid-poco"><i class="fab fa-github-alt fa-fw"></i></a></li>
+			</ul>
+			<hr> 
+	</div>	
+		<ul class="ul-nav-two">
 					<li class="li-nav-two">
-					    <a class="link-nav-two " href="index.html"><i class="fas fa-home fa-fw "></i>Blog Home</a></li>
+					<a class="link-nav-two " href="index.html"><i class="fas fa-home fa-fw "></i>Blog Home</a></li>
 					</li>
 					<li class="li-nav-two">
-					    <a class="link-nav-two" href="post-template.html"><i class="fas fa-bookmark fa-fw "></i>Blog Post</a>
+					<a class="link-nav-two" href="post-template.html"><i class="fas fa-bookmark fa-fw "></i>Blog Post</a>
 					</li>
 					<li class="li-nav-two">
-					    <a class="link-nav-two" href="about.html"><i class="fas fa-user fa-fw "></i>About Me</a>
+					<a class="link-nav-two" href="about.html"><i class="fas fa-user fa-fw "></i>About Me</a>
 					</li>
-				</ul>
-				
-				<div class="btn">
-				    <a id="click" class="btn-two" href="#" onclick="myfunction();">Click me Please</a>
-				</div>
-			</div>
-		</nav>
-    </header>
-    
-<body>
-  
-
-  <div class="main">
-	    
-    <section class="blog-list">
+			</ul>
+	<div class="btn">
+				  <a id="click" class="btn-two" href="#" onclick="myfunction();">Click me Please</a>
+	</div>
+		</div>
+		 </nav>
+      </header>
+    <main>
+      <div class="main">
+      <section class="blog-list">
       <div class="container">
           <h2>Why Every Developer Should Have A Blog</h2>
           <div class="title-two"> Published 2 days ago . 5 min read . <a href="#"> 8 comments</a></div>
-        
-        
-        <div >
-          <figure >
-              <a href=""><img class="img-about hamid-two" src="img/hamid2.jpg" alt="image"></a>
-              <figcaption class="">Image Credit: <a href="" target="_blank">made4dev.com (Premium Programming T-shirts)</a></figcaption>
-          </figure>
-
-
+      <div>
+      <figure >
+          <a href=""><img class="img-about hamid-two" src="img/hamid2.jpg" alt="image"></a>
+          <figcaption class="">Image Credit: <a href="" target="_blank">made4dev.com (Premium Programming T-shirts)</a></figcaption>
+      </figure>
           <p>A blog is useful for many reasons. It can become a source of leads,
              it can be the place where, in the future, you might sell your products if you want
               to become an indie developer, or it can simply be the place where you have your
@@ -97,9 +81,8 @@
           
           <h3>/* COMMENTS
             ------------------------------*/</h3>
-         
-            <pre style="width: auto; height: auto;">
-              <code class="language-js">
+            <pre style="width: auto; height: auto; overflow: scroll;">
+             <code class="language-js">
                 
                 /* COMMENTS
                 ------------------------------*/
@@ -174,7 +157,7 @@
                let txt          = "Apple is red";
                let textLength   = txt.length; 
                
-               let txt2         = "Beatles"; //console.log(txt.split(""));
+               let txt2         = "Beatles";     //console.log(txt.split(""));
                let txt3         = "powercoders"; //console.log(txt3.substr(5, 2) );
                
                /* NUMBERS
@@ -201,10 +184,10 @@
                
                //NATIVE NUMBER MEHTODS
 
-               let rand        =Math.random() *10;        console.log(rand);
-               let randInd     =Math.round(rand);         console.log(randInd);
-               let roundceil   =Math.ceil(1.212545654);   console.log(roundceil);
-               let roundFloor  =Math.floor(1.2);          console.log(roundFloor);
+               let rand        =Math.random() *10;        //console.log(rand);
+               let randInd     =Math.round(rand);         //console.log(randInd);
+               let roundceil   =Math.ceil(1.212545654);   //console.log(roundceil);
+               let roundFloor  =Math.floor(1.2);          //console.log(roundFloor);
                
                
                
@@ -212,38 +195,38 @@
                
                /* ARRAY (LISTS)
                ------------------------------ */
-               let arr1     = [1,2,3,4,5];                  console.log(arr1);
-               let arr2     = ["Bob", "Marc", "Sorin"];     console.log(arr2);
-                                                            console.log( arr2[2]);                //Sorin         
-                                                            console.log( "number array:"arr1[2]); //3       
+               let arr1     = [1,2,3,4,5];                  //console.log(arr1);
+               let arr2     = ["Bob", "Marc", "Tom"];     //console.log(arr2);
+                                                            //console.log( arr2[2]);                //Bob         
+                                                            //console.log( "number array:"arr1[2]); //3       
                
                
                //NATIVE ARRAY METHODS
                //ADD TO THE ARRAY
 
-               arr2.push("Bob");      console.log(arr2); // It will be added in the end of ARRAY
+               arr2.push("Bob");      //console.log(arr2); // It will be added in the end of ARRAY
                                    
                
                
                //DELETE FROM THE ARRAY
-               //arr2.pop();          console.log(arr2); //remove last element
-               //arr2.shift();        console.log(arr2); //remove first element
+               //arr2.pop();          //console.log(arr2); //remove last element
+               //arr2.shift();        //console.log(arr2); //remove first element
                
-               //arr2.splice(1, 2);   console.log(arr2); // With th num 1, keep first element and
-                                                            remove 2 element after first element we chose
+               //arr2.splice(1, 2);   //console.log(arr2); // With th num 1, keep first element and
+                                                           //remove 2 element after first element we chose
 
                
                //CHANGE A VALUE INSIDE AN ARRAY
 
-               arr2[1] = "Jack";      console.log(arr2); //Now Jack repalced with Marc
+               arr2[1] = "Jack";      //console.log(arr2); //Now Jack repalced with Marc
 
 
                
                //USING splice METHODS TO MODIFY an ARRAY
                
-               arr2.splice(1, 0, "freddy");     console.log(arr2);    //Now we chose index 1 and with chose 0 
-                                                                        i dont want any remove element just after Marc(1)
-                                                                        we add freddy
+               arr2.splice(1, 0, "freddy");     //console.log(arr2);   //Now we chose index 1 and with chose 0 
+                                                                       //i dont want any remove element just after Marc(1)
+                                                                       //we add freddy
                
                
                /* FUNCTIONS
@@ -253,7 +236,7 @@
                  //let name ="Jack";
                  let data = new Date();
                  let currentYear = data.getFullYear(); //console.log(currentYear);
-                 let age = currentYear - birthYear; //num years repalce with birhYaer
+                 let age = currentYear - birthYear;    //num years repalce with birhYaer
                
                  return name + " is " + age + " years old.";//Jack is 27 years old
                
@@ -262,9 +245,9 @@
                  return bob ;
                };
 
-                 console.log( calculateAge("Bob", 1993) );   => Bob is 27 years old.  
-                 console.log( calculateAge("Marc", 1980) );  => Marc is 40 years old.
-                 console.log( calculateAge("Jack", 1967) );  => Bob is 53 years old.
+                 console.log( calculateAge("Bob", 1993) );   //=> Bob is 27 years old.  
+                 console.log( calculateAge("Marc", 1980) );  //=> Marc is 40 years old.
+                 console.log( calculateAge("Jack", 1967) );  //=> Bob is 53 years old.
                
                
                /* TO PREVENT THE console.log(); FROM REPEATING IN
@@ -274,7 +257,7 @@
                
                  //let name ="Jack";
                  let data = new Date();
-                 let currentYear = data.getFullYear();    console.log(currentYear);
+                 let currentYear = data.getFullYear();  //console.log(currentYear);
                  let age = currentYear - birthYear;     //Num years repalce with birhYaer
                
              =>  console.log( name + " is " + age + " years old.");//Jack is 27 years old
@@ -282,9 +265,9 @@
                
                }
                 // now we dont use the console.log(); too much,
-                calculateAge("Bob", 1993);          => Bob is 27 years old.
-                calculateAge("Marc", 1993);         => Marc is 40 years old.
-                calculateAge("Jack", 1993);         => Jack is 53 years old.
+                calculateAge("Bob", 1993);          //=> Bob is 27 years old.
+                calculateAge("Marc", 1993);         //=> Marc is 40 years old.
+                calculateAge("Jack", 1993);         //=> Jack is 53 years old.
 
                
                
@@ -386,46 +369,26 @@
                console.log(persons.Marc.name); => Marc js
               </code>
             </pre>
-          
-       
-
-
-
-
-
-          
         <nav class="next">
         <a class="next-one" href="index.html"><i class="arrow-prev fas fa-long-arrow-alt-left"></i>Previous</a>
         <a class="next-two" href="about.html">Next<i class="arrow-next fas fa-long-arrow-alt-right"></i></a>
-      </nav>
-      
-      <div class="">
-       
-        
+        </nav>
+      <div>
         <noscript>
             Please enable JavaScript to view the 
-            <a href="" rel="nofollow">
-                comments powered by Disqus.
-            </a>
+           <a href="" rel="nofollow">comments powered by Disqus.</a>
         </noscript>
       </div>
         </div>
-      </div>
-    </section>
-  </div>
-<
-      
-    <footer class="footer">
-		   
-        
+          </div>
+            </section>
+         </div>
+     </main>
+  <footer class="footer">
             <small class="">Designed with <i class="fas fa-heart" ></i>
-               by <a href="" target="_blank">Hamid poco</a> for developers</small>
-   <
+            by <a href="" target="_blank">Hamid poco</a> for developers</small>
   </footer>
   </div>
-  
-  
-
 <script src="../assets/plugins/prims/prism.js"></script>
 <script src="../assets/js/main.js"></script>
 
